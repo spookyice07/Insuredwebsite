@@ -1,0 +1,237 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-size: 16px;
+    font-family: serif;
+    color:var(--Dark-GrayishViolet)
+}
+:root{
+    --Dark-Violet: hsl(256, 26%, 20%);
+    --Grayish-Blue: hsl(216, 30%, 68%);
+    --Very-DarkViolet: hsl(270, 9%, 17%);
+    --Dark-GrayishViolet: hsl(273, 4%, 51%);
+    --Very-LightGray: hsl(0, 0%, 98%);
+}
+.container{
+    width: 1440px;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    padding-top:25px;
+    padding-bottom: 25px;
+}
+.link a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: var(--Dark-GrayishViolet);
+}
+.link a:hover{
+    color:var(--Dark-Violet);
+    cursor: pointer;
+}
+.boxed{
+    border: 1px solid var(--Dark-GrayishViolet);
+    padding:10px;
+}
+.boxed:hover{
+    background-color:var(--Dark-Violet);
+    cursor: pointer;
+    color:white;
+}
+.boxed a:hover{
+    color:white;
+}
+.boxed a{
+    padding-left:20px;
+}
+
+/*sectionhero*/
+.section{
+    background-color:var(--Dark-Violet);
+    color:white;
+}
+.shortline{
+    width:310px;
+    padding-bottom: 50px;
+}
+.herosection{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hero-write{
+    width:60%;
+}
+.rightspiral img{
+    position: absolute;
+        right: -120px;
+        z-index: 1;
+        top: 1px;
+
+        
+}
+.hero-write h1{
+    font-size: 120px;
+    line-height: 90px;
+}
+.hero-write p{
+    font-size: 24px;
+    padding-top:25px;
+    line-height: 40px;
+}
+.boxed2{
+    border: 1px solid var(--Dark-GrayishViolet);
+    width:150px;
+    text-align: center;
+    margin-top:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.boxed2:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.boxed2 a{
+    text-decoration: none;
+    color:white;
+}
+.boxed2 a:hover {
+    color: var(--Dark-Violet);
+}
+.hero-img img{
+    width:100%;
+    position: relative;
+    top: 100px;
+    padding-left: 10px;
+}
+.hero-img{
+    width:40%;
+}
+
+.leftspiral{
+    position: absolute;
+    bottom:-350px;
+    left:-120px;
+}
+
+/*reasonsection*/
+
+.reasonsection{
+    margin-top: 20rem;
+}
+.reasonsection h1{
+    font-size:90px;
+    color:black;
+}
+.reason-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top:60px;
+}
+.reason p{
+    padding-top:10px;
+    font-size:25px;
+}
+.reason h2{
+    color:black;
+    font-size:27px;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+
+/*learnmore*/
+.learnmore .container{
+    background-color: var(--Dark-Violet);
+    position: relative;
+    height:250px;
+    margin-top: 130px;
+}
+.spirallearn{
+    position: absolute;
+    left:63rem;
+}
+.flex-more{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    color:white;
+    padding-top:40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.flex-more h2{
+    font-size:60px;
+}
+.boxed3{
+    border:1px solid white;
+    width:150px;
+    height:30px;
+    text-align: center;
+    padding-top:10px;
+    z-index: 0;
+}
+.boxed3 a{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+}
+.boxed3:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.boxed3 a:hover{
+    color:var(--Dark-Violet);
+}
+
+/*footer*/
+.footer{
+    background-color: var(--Very-LightGray);
+    margin-top: 120px;
+    position: relative;
+}
+.spiralimg{
+    position: absolute;
+    left:-40px;
+    overflow: hidden;
+}
+.footer-h{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.socialicons a{
+    padding-left:10px;
+}
+.socialicons img:hover{
+    background-color: var(--Very-DarkViolet);
+}
+.footer-header{
+    display: flex;
+    flex-direction: column;
+    padding-top:50px;
+}
+.footer-header h3{
+    padding-bottom: 30px;
+}
+.footer-header a{
+    padding-bottom: 13px;
+    color:var(--Dark-Violet);
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-header a:hover{
+    text-decoration: underline;
+}
+.footerheaderall{
+    display: flex;
+    justify-content: space-between;
+    width:1300px;
+}
